@@ -1,6 +1,5 @@
 import streamlit as st
 import google.generativeai as genai
-
 api_key = st.text_input("Enter Gemini API Key", type="password")
 
 try:
